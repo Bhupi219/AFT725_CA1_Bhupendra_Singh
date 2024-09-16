@@ -10,11 +10,10 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movementInput;
 
     public float movementSpeed = 2f;
+    public float SprintSpeed = 5f;
     public float gravity = 9.8f;
     public float jumpSpeed = 20f;
     public float verticalSpeed = 0f;
-
-    public Cinemachine.CinemachineVirtualCamera playerCamera;
 
     public void IAMovement(InputAction.CallbackContext context)
     {
